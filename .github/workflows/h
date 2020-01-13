@@ -1,0 +1,34 @@
+name: CI
+
+on: [pushing
+
+---------- Forwarded message ---------
+من: Hussein yousef <hy50188@gmail.com>
+‪Date: الاثنين، ١٣ كانون الثاني، ٢٠٢٠ ٣:٠١ م‬
+‪Subject: Re: طلب تغيير حساب هواوي قيد المراجعة‬
+‪To: حساب هواوي <noreply@mail.cloud.huawei.com>‬
+
+
+
+في الاثنين، ١٣ كانون الثاني، ٢٠٢٠ ٢:٥٩ م حساب هواوي <noreply@mail.cloud.huawei.com> كتب:
+ 
+عزيزي ،
+لقد تقدمت بطلب لتغيير حساب هواوي الخاص بك " h****88 ". رمز طلبك هو: A20200113195910636433 . لحماية حسابك، يُرجى عدم مشاركة رمز الطلب مع الآخرين. يمكنك زيارة "مركز الحماية" للتحقق من حالة طلبك أو تقديم معلومات إضافية. معرفة المزيد
+تقبل خالص تحياتنا،
+شركة هواوي
+اتفاقية المستخدم الخاصة بحساب هواوي  |  سياسة الخصوصية الخاصة بشركة هواوي  
+]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world!
+    - name: Run a multi-line script
+      run: |
+        echo Add other actions to build,
+        echo test, and deploy your project.
